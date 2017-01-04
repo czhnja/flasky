@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db304a8f-f2ea-4954-a2d8-7d15009a4ad3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_register.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth/forms.py" afterPath="$PROJECT_DIR$/app/auth/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_user_model.py" afterPath="$PROJECT_DIR$/tests/test_user_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,16 +45,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_basics.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_basics.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_register.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_register.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_register.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
@@ -99,6 +87,16 @@
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -170,6 +168,15 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <push-targets>
+      <push-target-info repo="$PROJECT_DIR$" source="8c" target-remote="origin" target-branch="8d" />
+    </push-targets>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -178,7 +185,6 @@
         <option value="$PROJECT_DIR$/app/main/views.py" />
         <option value="$PROJECT_DIR$/config_debug" />
         <option value="$PROJECT_DIR$/config.py" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/app/auth/__init__.py" />
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/models.py" />
@@ -192,6 +198,7 @@
         <option value="$PROJECT_DIR$/app/auth/forms.py" />
         <option value="$PROJECT_DIR$/tests/test_register.py" />
         <option value="$PROJECT_DIR$/tests/test_user_model.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -561,7 +568,14 @@
       <option name="project" value="LOCAL" />
       <updated>1483540310468</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2017/1/2&#10;add readme&#10;20170103&#10;login complete&#10;20170104&#10;login and register 8d&#10;add test case about reg">
+      <created>1483542516174</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1483542516174</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -625,7 +639,8 @@
     <MESSAGE value="2017/1/2&#10;add readme&#10;20120103&#10;login error" />
     <MESSAGE value="2017/1/2&#10;add readme&#10;20120103&#10;login complete" />
     <MESSAGE value="2017/1/2&#10;add readme&#10;20170103&#10;login complete&#10;20170104&#10;login and register 8d" />
-    <option name="LAST_COMMIT_MESSAGE" value="2017/1/2&#10;add readme&#10;20170103&#10;login complete&#10;20170104&#10;login and register 8d" />
+    <MESSAGE value="2017/1/2&#10;add readme&#10;20170103&#10;login complete&#10;20170104&#10;login and register 8d&#10;add test case about reg" />
+    <option name="LAST_COMMIT_MESSAGE" value="2017/1/2&#10;add readme&#10;20170103&#10;login complete&#10;20170104&#10;login and register 8d&#10;add test case about reg" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,14 +727,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-70">
           <caret line="12" column="3" lean-forward="true" selection-start-line="12" selection-start-column="3" selection-end-line="12" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -997,6 +1004,14 @@
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
         </state>
       </provider>
     </entry>
