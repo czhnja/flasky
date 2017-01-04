@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% import "bootstrap/wtf.html" as wtf %}
 
-{% block title %}Flasky - Login{% endblock %}
+{% block title %}Flasky - Register{% endblock %}
 
 {% block page_content %}
 <div class="page-header">
@@ -10,7 +10,4 @@
 <div class="col-md-4">
     {{ wtf.quick_form(form) }}
 </div>
-<p>New User?
-<a href="{{ url_for('auth.register') }}">Click Here To Register</a>
-</p>
 {% endblock %}
