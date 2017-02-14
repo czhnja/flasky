@@ -40,6 +40,12 @@ class UserModelTestCase(unittest.TestCase):
         self.assertTrue(u.can(Permission.WRITE_ARTICLES))
         self.assertFalse(u.can(Permission.MODERATE_COMMENTS))
 
+    def test_administrator(self):
+        Role.insert_roles()
+        u = User(email='czhnja@qq.com',password='cat')
+        self.assertTrue(u.is_administrator())
+
+
     def test_anonymous_user(self):
         u = AnonymousUser()
         self.assertFalse(u.can(Permission.FOLLOW))
