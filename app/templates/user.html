@@ -28,5 +28,6 @@
         <a class="btn btn-danger" href="{{ url_for('.edit_profile_admin', id=user.id) }}">Edit Profile [Admin]</a>
         {% endif %}
     </p>
+    <img class="img-rounded profile-thumbnail" src="{{ user.gravatar(size=256) }}">
 </div>
 {% endblock %}
